@@ -27,7 +27,14 @@ img:hover{
     border: 3px solid green;
     
 }
-
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background: black;
+    border: 2px solid crimson;
+    border-radius: 5px;
+}
 
 
 
