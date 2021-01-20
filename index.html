@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>class 7</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -12,10 +13,16 @@
           <form action="">
               <fieldset>
                   <legend>Student Form</legend>
+                  <img src="sweet.jpeg" alt=""><br><br>
                   <label for="fname">Full Name</label>
-                  <input type="text" placeholder="Enter your full name"><br><br>
+                  <input type="text" placeholder="Enter Your full name"><br><br>
                   <label for="fname">Nickname</label>
-                  <input type="text" placeholder="Enter your Nickname">
+                  <input type="text" placeholder="Enter Your Nickname"><br><br>
+
+                  <label for="fname">Roll No</label>
+                  <input type="numbar" placeholder="0"><br><br>
+                  <label for="fname">E-Mail</label>
+                  <input type="email" placeholder="abc@gmail.com"><br><br>
                   <h3>address</h3>
                   <select name="address" id="">
                     <option value="text">Dhaka</option>
@@ -27,6 +34,7 @@
                     <option value="text">Chittagong</option>
                     <option value="text">Khulna</option>
                   </select>
+                  <br><br>
                   <div class="date">
                   <h3>Date of Birth</h3>
                   <select name="" id="">
@@ -92,7 +100,14 @@
                       <option value="">2004</option>
                       <option value="">2005</option>
                   </select>
-                  </div>
+                  </div><br>
+                  <h3>Gender</h3>
+                  <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Male</label><br>
+                  <input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label><br>
+                  <input type="radio" id="other" name="gender" value="other">
+                  <label for="other">Other</label>
               </fieldset>
           </form>
       </div>
